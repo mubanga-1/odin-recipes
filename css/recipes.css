@@ -1,0 +1,46 @@
+/* Perform css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 40px 0 20px 0;
+}
+
+h1, a {
+    margin-left: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: 1s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid black;
+}
+
+.intro figure {
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 15px;
+}
+
+.intro, .ingredients, .directions {
+    margin: 45px 0 50px 150px;
+}
+
+.heading {
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 3px;
+}
