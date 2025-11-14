@@ -1,0 +1,30 @@
+/* Perform a css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 40px 0 0 20px;
+}
+
+ol {
+    margin: 20px 0 0 50px;
+}
+
+li {
+    margin-top: 6px;
+    font-size: 1.2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    transition: .6s ease;
+}
+
+li a:hover {
+    opacity: .5;
+}
